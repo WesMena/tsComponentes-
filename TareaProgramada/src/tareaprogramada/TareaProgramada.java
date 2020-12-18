@@ -25,7 +25,9 @@ public class TareaProgramada {
         Servicio.setHbm2DDLprotocol("update");
         Servicio.setDialect("org.hibernate.dialect.MySQLDialect");
         Servicio.startEntityManagerFactory();
-        
+         Servicio.setUbicacionMimes("C:/Users/Lenovo/Desktop/magicmimes.properties");
+   
+   
             Control prueba = new Control();
             
             prueba.setEm(Servicio.getEm());
